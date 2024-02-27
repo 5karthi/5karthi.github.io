@@ -1,0 +1,196 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+h1{
+color: black;
+}
+p{
+color: black;
+}
+h4{
+  color: black;
+
+}
+
+.button-link {
+
+  bottom: 100px;
+  left:150px;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #E64B19 ;
+    color: none;
+    border: none;
+     position: absolute;
+  top: 50%;
+left:150px;
+  transform: translate(50%, -50%);
+  padding: 10px 20px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #000;
+}
+
+.button-link:hover {
+  background-color: #0056b3;
+}
+.content {
+  min-height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: blue;
+}
+   body{
+        background-image: url();
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position:relative;
+        background-size: cover;
+        background-color: #2AC48F ;
+        
+      
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #4CAF50;
+  
+
+  padding: 2em;
+  text-align: center;
+  color: white;
+}
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 800px;
+}
+
+
+
+
+  nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  
+
+
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 1em;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  padding: 2em;
+}
+
+footer {
+  background-color: #2A98C4 ;
+  color: yellow;
+  text-align: center;
+  padding: 1em;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#profile-picture {
+  max-width: 100%;
+  height: 300px;
+  position: absolute;
+  top: 50px;
+  right: 100px;
+ border-radius: 25px;
+ 
+  
+  padding: 5px;
+  width: 2000px;
+ 
+}
+
+
+#profile-picture {
+  width: 200px; /* Adjust the width as needed */
+  transition: transform 0.5s ease; /* Add transition effect */
+}
+
+#profile-picture:hover {
+  transform: rotateY(180deg); /* Apply 3D rotation on hover */
+}
+
+
+h3{
+  position: absolute;
+left:450px;
+bottom: 10px;
+font-style:oblique;
+}
+
+ 
+  
+ 
+ 
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  height: 50px;
+}
+
+ul li {
+  margin: 0;
+  padding: 0;
+}
+h3{
+    position: absolute;
+    left:45%;
+    bottom: 20px;
+
+}
+ul li a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 15px;
+}
+
+ul li a:hover {
+  background-color: #555;
+}
